@@ -7,6 +7,7 @@ from tkinter.messagebox import showerror
 window=Tk() # связывание переменной с объектом
 window.title("Сумма чисел") # название окна
 window.geometry("300x100") # размер окна
+window.configure(bg="#e6e6fa") # цвет окна
 
 # Функция расчета
 def raschet(): # создаем функцию
