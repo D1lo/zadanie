@@ -19,8 +19,9 @@ def raschet(): # создаем функцию
         return [None] # выход из функции
     
     summa=chislo1+chislo2 # формула расчета суммы
-
-
+    
+    lblvivod=ttk.Label(window, text=f"Сумма равна: {summa}") # поле вывода результата
+    lblvivod.grid(column=1, row=3) # размещение поля вывода
 
 # Создание указания пользователю
 lbl=ttk.Label(window, text="Введите первое слагаемое:") # Указание пользователю о вводе первого слагаемого
