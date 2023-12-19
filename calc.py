@@ -19,3 +19,9 @@ ent=ttk.Entry(window) # создание поля ввода для первог
 ent.grid(column=1, row=0) # размещение поля ввода
 ent2=ttk.Entry(window) # создание поля ввода для второго слагаемого
 ent2.grid(column=1, row=1) # размещение второго поля ввода
+
+# Создали кнопку расчета
+btn=ttk.Button(window, text="Расчитать сумму чисел") # кнопка расчета
+btn.grid(column=1, row=2) # расположение кнопки в окне
+
+window.mainloop()
